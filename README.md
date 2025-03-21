@@ -17,6 +17,12 @@ npm -v
 ```
 Ti deve restituire la versione installata di entrambi.
 
+### se su Windows `npm -v` da errore
+
+1. sul terminale (aperto con diritti da amministratore di sistema) esegui il comando: `Get-ExecutionPolicy`
+2. se ti risponde: `restricted`, esegui il comando: `Set-ExecutionPolicy remotesigned`
+3. esegui nuovamente: `npm -v` e, ora, dovresti ottenere la versione installata
+
 ##  2. **Installa Visual Studio Code (VSC)**
 
 1. Scarica VSC da: [https://code.visualstudio.com](https://code.visualstudio.com)
@@ -98,7 +104,7 @@ app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`)
 
 Per avviare:
 ```
-node index.js
+node app.js
 ```
 
 
