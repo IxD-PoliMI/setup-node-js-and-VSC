@@ -164,6 +164,10 @@ Ecco il risultato. A questo punto l'applicazione è disponibile all'indirizzo ne
 
 ![](img/3-result.png)
 
+**NOTA** puoi rendere il Forwarded Address pubblico
+
+![](img/4-result.png)
+
 Ricordati di togliere il forward.
 
 ![](img/4-stop.png)
